@@ -1,23 +1,20 @@
-# Kütüphaneler
+## YouTube Clone
+Bu proje, video listeleme, kategori yönetimi, detaylı video oynatma ve modern arayüzü ile popüler video platformu YouTube'un temel özelliklerini taklit eden dinamik bir web uygulamasıdır.
 
-- react
-- axios : api istekleri için
-- tailwindcss : stillendirme için
-- react-router-dom : birden fazla sayfa için
-- react-icons : ikonlar için
+## Özellikler
+* Ana sayfada popüler ve güncel videoların listelenmesi
+* Kategori bazlı filtreleme ile aranan içeriklere hızlı erişim
+* Video detay sayfası ve oynatıcı entegrasyonu
+* react-router-dom ile sayfalar arası kesintisiz ve hızlı geçişler
+* Zengin ikon kütüphanesi ile desteklenmiş kullanıcı dostu arayüz
+* Responsive tasarımı sayesinde tüm cihazlarda sorunsuz kullanım
 
-# Kaynaklar
+## Kullanılan Teknolojiler
+* React
+* Axios
+* Tailwind CSS
+* React Router DOM
+* React Icons
 
-- API: https://rapidapi.com/ytjar/api/yt-api
-
-# Enviroment Variables
-
-- Ortam değişkenleri, projenizde kullanmanız gereken ama herkesle paylaşmak istemeyeceğiniz ve githuna gönderilmesini engelleyeceğiniz değişkenlerdir.
-- Projeyi yeniden yayınlamadan bu değerleri değiştirebiliriz.
-- (api key, varitabanı url, admin variables, project variables)
-
-- proje içerisinde bir `.env` isimli dosya aç
-- `VITE_DEĞİŞKEN_İSMİ=değişkenin değeri` formatıyla tanımlanır
-- proje içerisinde `import.meta.env.VITE_DEĞİŞKEN_İSMİ` ifadesyile env değişkenlere erişebiliriz.
-- .env klasörünü .gitignore'a ekleyerek githuba gönderilmesini engelleriz
-- daha sonra projeyi indirip başlatacak kişilere yardımcı olma amacıyla `.env.example` dosyası oluşturup hangi değişkenlerin tanımlanması gerektiğini belirtebiliriz
+## Ekran Görüntüsü
+<img width="800" height="450" alt="YoutubeClone" src="https://github.com/user-attachments/assets/e308abfa-3583-42ae-afa3-6dfca194645e" />
